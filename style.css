@@ -1,4 +1,149 @@
-body {
-    background-color: black;
-    color: white;
+* {
+    display: border-box;
 }
+
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans';
+    border-style: rgba(255,255,255,0.92);
+}
+
+#cv {
+    display: block;
+    position: relative;
+    width:65%;
+    box-shadow: 6px 10px 28px 0px rgba(0,0,0,0.4);
+}
+
+header{
+    height: 250px;
+    position: relative;
+    text-align: center;
+    background-color: rgb(139, 138, 136);
+
+
+   
+}
+.name  {
+    margin: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 100;
+    font-size: 200%;
+
+}
+
+nav {
+    display: flex;
+    /* position: fixed; */
+    height: 120px;
+    font-size: 150%;
+
+}
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+/* =============== */
+/* styling all links */
+h2{
+    align-self: flex-start;
+}
+ul {
+    padding: 0;
+}
+ul li {
+    display: block;
+    padding: 10;
+}
+
+ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color:black;
+}
+hr{
+    margin-left: 2%;
+    width: 80%;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* left side */
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    margin: 0 4% 0 4%;
+    background-color: rgb(228, 202, 163);
+   
+}
+img {
+   
+
+    border-radius: 50%;
+
+    
+}
+.side-bar section {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.side-bar p {
+    margin-left: 6%;
+
+}
+i{
+    color: rgb(139, 127, 107) ;
+    margin-right: 4%;
+}
+/*right side */
+aside{
+    display: flex;
+    flex-direction: column;
+    width:580px;
+    justify-content: flex-end;
+}
+code {
+    width: 100%;
+   
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display:inline-block ;
+
+}
+.dot_col {
+  height: 15px;
+  width: 15px;
+  background-color: rgb(163, 162, 159);
+  border-radius: 50%;
+  display:inline-block ;
+
+}
+pre{
+    background-color: rgb(184, 181, 181);
+    width: 100%;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+
+}
+
